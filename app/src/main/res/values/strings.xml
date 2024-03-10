@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Inicio Mundo patines</string>
+    <string name="nombre">¡Mundo patines!</string>
+    <string name="descripcion">Bienvenido a tu tienda de patines de confianza</string>
+    <string name="boton1">Inscribirse</string>
+    <string name="boton2">Salirse</string>
+    <string name="iconoPatin">Icono patin</string>
+
+    <string name="usuario">Usuario</string>
+    <string name="nombreCompleto">Nombre</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="numeroTel">Número Telefono</string>
+    <string name="direccionEnvio">Dirección envio</string>
+
+    <string name="bienvenida">¡BIENVENIDO!</string>
+    <string name="mostrarUsuario">Usuario mostrar</string>
+    <string name="mostrarNombre">Nombre mostrar</string>
+    <string name="mostrarDireccion">direccion mostrar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="boton">Salir</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".Bienvenida"
+    android:background="@drawable/patines3">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:src="@drawable/patin"
+        android:contentDescription="@string/iconoPatin"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-100dp"/>
+
+    <TextView
+        android:id="@+id/bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E895C1"
+        android:fontFamily="cursive"
+        android:text="@string/bienvenida"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/mostrarUsuario"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mostrarUsuario"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="26dp"
+        android:background="#F9B23C"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/mostrarNombre"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mostrarNombre"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:background="#F9B23C"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/mostrarDireccion"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mostrarDireccion"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="173dp"
+        android:background="#F9B23C"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E794C0"
+        android:text="@string/boton"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
